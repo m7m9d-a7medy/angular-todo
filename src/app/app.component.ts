@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-crash-todolist';
+  // tslint:disable-next-line: no-inferrable-types
+  name: string = 'Mahmoud';
+
+  
 }
